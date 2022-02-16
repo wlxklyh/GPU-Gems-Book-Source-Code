@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{685db333-394e-41da-85b7-6e81609bdf2e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{156370a0-101b-4a2f-b277-373050342ec6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="CgSource">
+      <UniqueIdentifier>{0fec4b86-fcd1-495e-9882-c73166184e5c}</UniqueIdentifier>
+      <Extensions>cg</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{af2e35a6-23c5-4810-924e-df79d6a3efe8}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CRenderer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CloudShader.cg">
+      <Filter>CgSource</Filter>
+    </None>
+    <None Include="MoonShader.cg">
+      <Filter>CgSource</Filter>
+    </None>
+    <None Include="OceanShader.cg">
+      <Filter>CgSource</Filter>
+    </None>
+    <None Include="PlanetShader.cg">
+      <Filter>CgSource</Filter>
+    </None>
+  </ItemGroup>
+</Project>

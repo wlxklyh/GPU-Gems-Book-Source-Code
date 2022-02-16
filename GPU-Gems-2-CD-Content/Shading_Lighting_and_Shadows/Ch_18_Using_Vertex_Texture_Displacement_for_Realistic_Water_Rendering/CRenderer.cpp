@@ -470,7 +470,7 @@ void CRenderer::Initialize()
 
           int SZ = WaterTexSize;
 
-          for (y = 0; y < SZ; y++) {
+          for (int y = 0; y < SZ; y++) {
             for (int x = 0; x < SZ; x++) {
               pBuf2[(y*SZ + x)*4+0] = pBuf[(y*SZ + x)*3+0];
             }
@@ -478,7 +478,7 @@ void CRenderer::Initialize()
           float *pBuf3 = new float[(SZ/2)*(SZ/2)*4], *pB3 = pBuf3;
           { 
             for (int k = 0; k < 10; k++) {
-              for (y = 0; y < SZ; y++) {
+              for (int y = 0; y < SZ; y++) {
                 for (int x = 0; x < SZ; x++) {
                   //pBuf2[(y*SZ + x)*4+0] = pBuf[(y*SZ + x)*4+0];
                   pBuf2[(y*SZ + x)*4+1] = pBuf2[(y*SZ + (x+1)%SZ)*4+0];
@@ -664,7 +664,7 @@ void CRenderer::RenderSea() {
   float _S = (1-Weather)*0.5 + 0.25;
   float H = 2.5*_S;  //H *= 3;
   H*=1.5;
-  float TexScale = 0.0025*(1.0+(0.5-abs(Weather-0.5))*4);//*2.5;
+  float TexScale = 0.0025*(1.0+(0.5-abs(int(Weather-0.5))*4));//*2.5;
       
   glPushMatrix();
   

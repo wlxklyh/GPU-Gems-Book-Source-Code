@@ -207,7 +207,7 @@ void Reshape(int w, int h)
 // MAIN ROUTINE. INIT USER OBJECTS AND ACTIVATE VIEWER.
 //----------------------------------------------------------------------------
 void main()
-{ 
+{  
   printf("Keys:\n");
   printf("'Esc': Quit\n");
   

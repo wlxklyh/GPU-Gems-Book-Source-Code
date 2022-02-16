@@ -1,21 +1,24 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader", "shader.vcproj", "{AA486AE6-BD47-4BC0-9292-99C8D9C89547}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader", "shader.vcxproj", "{AA486AE6-BD47-4BC0-9292-99C8D9C89547}"
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Debug.ActiveCfg = Debug|Win32
-		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Debug.Build.0 = Debug|Win32
-		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Release.ActiveCfg = Release|Win32
-		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Release.Build.0 = Release|Win32
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Debug|x86.Build.0 = Debug|Win32
+		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Release|x86.ActiveCfg = Release|Win32
+		{AA486AE6-BD47-4BC0-9292-99C8D9C89547}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+		SolutionGuid = {1C01EAB0-21F1-455C-A8A5-58FC6EA2157C}
 	EndGlobalSection
 EndGlobal
