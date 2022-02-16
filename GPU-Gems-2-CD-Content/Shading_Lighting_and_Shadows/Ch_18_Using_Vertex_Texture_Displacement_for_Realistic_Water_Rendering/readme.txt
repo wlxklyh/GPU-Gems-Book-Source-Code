@@ -1,3 +1,5 @@
+wlxklyh:https://developer.nvidia.com/cg-toolkit 3.1version
+
 This is sample of program for demonstrating effect *
 of syntesing ocean water using vertex textures.    *
 ****************************************************
